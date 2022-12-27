@@ -1,0 +1,54 @@
+{
+  "title": "FN + Arrow Keys",
+  "rules": [
+    {
+      "description": "FN + comma to Down",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "comma",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "caps_lock",
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "arrow_down"
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "description": "FN + Enter to Right",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ],
+              "optional": [
+                "caps_lock",
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "arrow_right"
+            }
+          ]
+        }
+      ]
+    }
+]
